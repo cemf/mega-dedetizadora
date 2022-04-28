@@ -1,0 +1,13 @@
+
+
+.carousel-item .img-carosel1{
+    width: 90%;
+    height: 100%;
+    padding:10px 0;
+}
+
+.carousel-caption {
+    position: absolute; 
+    left: 64%; 
+    top: 2rem;
+}
