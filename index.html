@@ -18,24 +18,24 @@
     </style>
   </head>
   <body>
-    <header
-      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom container"
-    >
-      <a
-        href="/"
-        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
-      >
-        <!-- <img src="./img/logo_com_cristo.png" alt=""> -->
-        logo 40 x 32
-      </a>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a
+          href="/"
+          class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none active"
+        >
+          <!-- <img src="./img/logo_com_cristo.png" alt=""> -->
+          logo 40 x 32
+        </a>
 
-      <ul class="nav nav-pills">
-        <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
-        <li class="nav-item">
-          <a href="#" class="nav-link active">Solicite seu orçamento</a>
-        </li>
-      </ul>
+        <a href="#servicos" class="parts">Serviços</a>
+        <a href="#contatos" class="parts">Contato</a>
+        <a href="#" class="nav-link active parts">Solicite seu orçamento</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          icon
+        </a>
+      </div>
     </header>
     <main>
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -67,6 +67,7 @@
             aria-label="Slide 4"
           ></button>
         </div>
+
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
@@ -129,7 +130,7 @@
           </div>
 
           <div class="carousel-item">
-            <img src="./img/Mosaico 1300x600.jpg" alt="">
+            <img src="./img/Mosaico 1300x600.jpg" alt="" />
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1>
@@ -160,187 +161,318 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <div class="container marketing">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="titulo-pragas">
-              Imunização e controle de pragas urbanas
-            </h2>
-            <div class="list-group">
-              <div class="list-group-item" aria-current="true">
-                <div class="d-flex w-100 justify-content-between">
-                  img
-                  <h5 class="mb-1">Ratos</h5>
-                </div>
-                <!-- Quando vemos um rato em nossa casa é sinal de que algo está
+      <section id="servicos">
+        <div id="pragas" class="container marketing">
+          <div class="row featurette">
+            <div class="col-md-6">
+              <h2 class="titulo-pragas">
+                Imunização e controle de pragas urbanas
+              </h2>
+              <div class="list-group">
+                <div class="list-group-item" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Ratos</h5>
+                  </div>
+                  <!-- Quando vemos um rato em nossa casa é sinal de que algo está
                   errado. Isso porque os ratos só aparecem quando damos
                   condições para que tenham abrigo, água e alimento. -->
-                <p class="mb-1">
-                Podem transmitir mais de 35 doenças tais como: leptospirose,
-                  tifo, salmonelose e hantavirose. 
-                  Nas indústrias, os estragos causados por
-                  esses roedores nas fiações elétricas causam incêndios e
-                  grandes prejuízos. Ratos podem roer chumbo, alumínio, cimento,
-                  tijolo, plástico e madeira
-                </p>
-              </div>
-              <div class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                  img
-                  <h5 class="mb-1">Baratas</h5>
+                  <div class="text-group d-flex">
+                    <div class="me-2">
+                      <img class="w-100" src="./img/ratos.png" alt="" />
+                    </div>
+                    <p class="mb-1">
+                      Podem transmitir varias doenças como leptospirose, tifo e
+                      hantavirose. Nas indústrias, os estragos causados por
+                      esses roedores nas fiações elétricas causam incêndios.
+                      Roem chumbo, alumínio, cimento, tijolo, plástico alem de
+                      madeira
+                    </p>
+                  </div>
                 </div>
-                <p class="mb-1">
-                  Podem passam semanas sem comer ou
-                  beber. Carregam diversas bactérias,
-                  vírus e fungos do esgoto E isso sem contar que podem causar alergia e crises de asma em pessoas mais sensíveis.
-                </p>
-              </div>
-              <div class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                  img
-                  <h5 class="mb-1">Mosquitos</h5>
+                <div class="list-group-item">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Baratas</h5>
+                  </div>
+                  <div class="text-group mb-1 d-flex">
+                    <div class="me-2">
+                      <img class="w-100" src="./img/barata.png" alt="" />
+                    </div>
+                    <p class="">
+                      Podem passam semanas sem comer ou beber. Carregam diversas
+                      bactérias, vírus e fungos do esgoto e podem causar alergia
+                      e crises de asma em pessoas mais sensíveis e alergicas.
+                    </p>
+                  </div>
                 </div>
-                <p class="mb-1">
-                  Se alimentam de líquidos como néctar, seiva ou sangue. Apenas as fêmeas se alimentam de sangue. Podem transmitir diversas doenças, como dengue, febre amarela,
-                  malária, entre outras.
-                </p>
-              </div>
-              <div class="list-group-item">
-                <div class="d-flex w-100 justify-content-between">
-                  img
-                  <h5 class="mb-1">Formigas</h5>
+                <div class="list-group-item">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Mosquitos</h5>
+                  </div>
+                  <div class="text-group">
+                    <div class="me-2">
+                      <img class="w-100" src="./img/mosquitos.png" alt="" />
+                    </div>
+
+                    <p class="mb-1">
+                      Se alimentam de líquidos como néctar, seiva ou sangue.
+                      Apenas as fêmeas se alimentam de sangue. Podem transmitir
+                      doenças, como dengue, febre amarela, malária, entre
+                      outras.
+                    </p>
+                  </div>
                 </div>
-                <p class="mb-1">
-                  A rota das formigas em busca de alimento inclui os destinos mais
-                  excêntricos, como fezes, feridas, escarros, lixeiras e animais
-                  mortos. Por passar por estes lugares, elas  podem carregar bactérias, fungos e vírus. Por isso, formigas
-                  são consideradas um vetor de quase todas as doenças infecciosas.
-                </p>
+                <div class="list-group-item">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Formigas</h5>
+                  </div>
+                  <div class="text-group">
+                    <div class="me-2">
+                      <img class="w-100" src="./img/formiga.png" alt="" />
+                    </div>
+                    <p class="mb-1">
+                      Na rota delas em busca de alimento podem passar por fezes,
+                      feridas, escarros, lixeiras e animais mortos. Por passar
+                      por estes lugares, elas podem carregar bactérias, fungos e
+                      vírus. São consideradas um vetor de quase todas as doenças
+                      infecciosas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <svg
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                width="500"
+                height="500"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: 500x500"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <title>Imagem de tirando pragas</title>
+                <rect width="100%" height="100%" fill="#eee" />
+                <text x="50%" y="50%" fill="#aaa" dy=".3em">
+                  Imagem de tirando pragas
+                </text>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div id="instalaçoes" class="container marketing">
+          <div class="row featurette">
+            <div class="col-md-6">
+              <svg
+                class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+                width="500"
+                height="500"
+                xmlns="http://www.w3.org/2000/svg"
+                role="img"
+                aria-label="Placeholder: 500x500"
+                preserveAspectRatio="xMidYMid slice"
+                focusable="false"
+              >
+                <title>Imagem de tirando pragas</title>
+                <rect width="100%" height="100%" fill="#eee" />
+                <text x="50%" y="50%" fill="#aaa" dy=".3em">
+                  mosaico dos 4 serviços
+                </text>
+              </svg>
+            </div>
+            <div class="col-md-6">
+              <h2 class="titulo-pragas">
+                Manutençao e instalaçao de :
+              </h2>
+              <div class="list-group">
+                <div class="list-group-item" aria-current="true">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Sistemas de Gaz</h5>
+                  </div>
+                  <p class="mb-1">
+                    Os reguladores de pressão precisam ser selecionados para a
+                    realização do atendimento à pressão da rede de distribuição
+                    interna onde estão instalados e a vazão adotada prevista
+                    para os aparelhos a gás servidos por eles. Os reguladores de
+                    pressão devem ser conforme ABNT NBR 15590. Muitas vezes, a
+                    falta de manutenção das redes de gás exigem obras que
+                    envolvem quebra de paredes, trocas de equipamentos caros e
+                    outras despesas não previstas no orçamento do condomínio.
+                  </p>
+                </div>
+                <div class="list-group-item">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Hidraulica</h5>
+                  </div>
+                  <p class="mb-1">
+                    Instalação hidráulica é o sistema de abastecimento,
+                    distribuição e escoamento de água. Ela é composta pelos
+                    projetos arquitetônico e hidráulico, caixa d’água, redes de
+                    distribuição de água fria e quente, coleta de esgoto e águas
+                    pluviais. Uma instalação hidráulica é um trabalho complexo,
+                    que exige o conhecimento de especialistas para garantir os
+                    materiais certos e a instalação correta. A manutenção
+                    hidráulica predial nada mais é do que um serviço preventivo,
+                    que visa averiguar as condições dos sistemas de água,
+                    incluindo o funcionamento de encanamentos e tubulações.
+                  </p>
+                </div>
+                <div class="list-group-item">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Ar condicionado central</h5>
+                  </div>
+
+                  <p class="mb-1">
+                    Se a sua residência é grande e você deseja climatizar toda
+                    ela de forma eficiente, sem ter que instalar várias
+                    condensadoras (unidades externas), o ideal é montar uma
+                    central de ar, onde você poderá ter apenas uma condensadora
+                    e várias evaporadoras (unidades internas) ligadas a ela.
+                    Enquanto para climatização de grandes ambientes como
+                    shoppings, cinemas, prédios, edifícios, entre outros seriam
+                    necessárias grandes máquinas, como o chiller, por exemplo,
+                    em residências ou ambientes menores, é possível a utilização
+                    de outros aparelhos. A manutenção do sistema de ar
+                    condicionado é necessária, principalmente porque
+                    profissionais da área de saúde já comprovaram que o sistema
+                    de ar condicionado sem manutenção pode se tornar perigoso
+                    para a saúde, produzindo bactérias e fungos nocivos ao
+                    sistema respiratório e produzir diversas doenças.
+                  </p>
+                </div>
+                <div class="list-group-item">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Instalaçoes eletricas</h5>
+                  </div>
+                
+                   
+                    <p class="mb-1">
+                      Os serviços de instalação e manutenção elétrica
+                      compreendem desde a ligação dos postes das
+                      concessionárias, de modo a conduzir a energia até os
+                      pontos de consumo dentro dos ambientes industriais, até a
+                      ligação completa da rede elétrica de baixa e média tensão.
+                      A manutenção elétrica preventiva tem um papel fundamental
+                      nas empresas, pois é capaz de evitar acidentes e problemas
+                      causados pelo mau funcionamento de máquinas e instalações,
+                      como incêndios e paradas inesperadas.
+                    </p>
+                  
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-md-5">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Imagem de tirando pragas</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">Imagem de tirando pragas</text>
-            </svg>
-          </div>
         </div>
-      </div>
-
-      <div class="album py-5 bg-light">
-        <div class="container">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div id="Limpeza" class="col">
-              <div class="card shadow-sm">
-               <img src="./img/Limpeza de prédios.jpg" alt="">
-                <div class="card-body">
+        <div class="album py-5 bg-light">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div id="Limpeza" class="col">
+                <div class="card shadow-sm">
+                  <img src="./img/Limpeza de prédios.jpg" alt="" />
+                  <div class="card-body">
                     <h5>Limpeza de predios e caixas d'agua</h5>
-                  <p class="card-text">
-                    O card deveria ter um titulo e depois imagem e depois
-                    descriçao
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
+                    <p class="card-text">
+                      Geralmente a lavagem de fachada de prédio é feita com
+                      escovas ou brochas específicas, com hidrojateamento e
+                      detergentes. Caso a fachada do prédio for de vidro, ainda
+                      pode ser feito o acabamento de secagem com rodo. A limpeza
+                      de prédios é considerada uma questão operacional dentro
+                      dos condomínios. Por conta disso, a tarefa de orientá-la
+                      cabe ao síndico. Tratando-se de algo que pode beneficiar
+                      tanto os condomínios quanto os condôminos, a
+                      responsabilidade sobre a tarefa pode parecer árdua. No
+                      entanto, se alguns pontos simples forem seguidos à risca,
+                      a otimização poderá torná-la mais fácil. Você sabia que
+                      deve fazer a limpeza da caixa d’água a cada seis meses? O
+                      reservatório de água das casas precisa ser higienizado
+                      para evitar a contaminação e surgimento de bactérias que
+                      afetam diretamente a saúde da família, além de prevenir
+                      imprevistos com encanamentos entupidos. A limpeza da caixa
+                      d’água das residências é fundamental para garantir um
+                      ambiente adequado e livre de bactérias, para reservar
+                      água. A contaminação da água põe em risco a saúde e
+                      provoca doenças como diarreia, hepatite, leptospirose,
+                      entre outras.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Edit
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="./img/Pintura de prédios.jpg" alt="">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img src="./img/Pintura de prédios.jpg" alt="" />
 
-                <div class="card-body">
-                  <h5>Pintura de predios</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
+                  <div class="card-body">
+                    <h5>Reformas de casas e Pintura de predios</h5>
+                    <p class="card-text">
+                      Cada reforma de casa é única, mas observando as
+                      características gerais podemos dividi-las basicamente em 3
+                      grupos. Elas podem ser executadas separadamente ou ao
+                      mesmo tempo, confira quais são: Layout do imóvel - Quando
+                      falamos de reforma de casas, esse é um dos tipos mais
+                      comuns. Trata-se das mudanças para melhorar o
+                      aproveitamento do ambiente, seja integrando espaços,
+                      incluindo novos móveis ou trocando a iluminação. Troca de
+                      piso e revestimento - simples troca dos pisos e
+                      revestimentos consegue dar uma nova cara ao ambiente. Além
+                      disso, essa mudança também pode deixar o espaço mais
+                      prático e seguro. Solução para problemas estruturais -
+                      Nesse tipo de reforma de casas, a ideia é solucionar
+                      problemas relacionados a danos estruturais nas paredes,
+                      vazamentos, problemas no telhado e melhorias na rede
+                      elétrica e hidráulica. A fachada do condomínio é tudo
+                      aquilo que compõe a área visível das faces de um imóvel, o
+                      que resulta num conjunto visível harmonioso. Ela pode ser
+                      externa (frente, laterais e fundo do prédio) ou interna
+                      (corredores, portas dos apartamentos, garagem e espaços de
+                      área comum). Realizar a pintura do edifício de forma
+                      antecipada ajuda na prevenção da degradação das paredes,
+                      provocada, geralmente, por infiltrações e umidade no
+                      prédio. ... Realizamos serviços de pintura de fachadas em
+                      prédios comerciais, residenciais e industriais.
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          View
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-sm btn-outline-secondary"
+                        >
+                          Edit
+                        </button>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-             
-                <img src="./img/Instalação Hidráulica.jpg" alt="">
-
-                <div class="card-body">
-                  <h5>Instalações e manutenções elétrica, hidráulica, sistemas de gás e de ar central</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
+      </section>
       <!-- Inicio -->
       <!-- Quem somos - Página apresentando a empresa, onde fica, quanto tempo no mercado e quais tipos de serviço atua -->
       <!-- Serviços - Uma lista dos serviços que a empresa desenvolve Contatos - Uma
@@ -349,22 +481,30 @@
       prédios e caixas d’ água 4. Pintura de edifícios, Obras e reformas 5.
       Instalação e manutenção elétrica, hidráulica, de sistemas de gás e de ar
       central\ -->
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            aqui iria todas as informaçoes de contato, incluindo o link do
-            whatsapp , em um botao
-          </div>
-          <div class="col-md-6">
-            aqui se aplica o mapa do google maps, se valer a pena e se for
-            possivel
+      <section id="contatos">
+        <div class="px-4 py-5 my-5 text-center">
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+              email: telefone: Quickly design and customize responsive
+              mobile-first sites with Bootstrap, the world’s most popular
+              front-end open source toolkit, featuring Sass variables and
+              mixins, responsive grid system, extensive prebuilt components, and
+              powerful JavaScript plugins.
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+                Peça seu orçamento agora
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
     <footer>
       aqui vai o footer, no footer vai ter o CNPJ e o cadastro, provavelmente
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    instalaçao e manutençao de : - coisa: textinho - coisa: textinho - -
   </body>
 </html>
