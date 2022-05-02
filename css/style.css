@@ -1,38 +1,47 @@
-body{
-    padding: 0;
+body {
+  padding: 0;
+  background-color: #ebe7e7;
 }
 
-
-.carousel-item .img-carosel1{
-    width: 90%;
-    height: 100%;
+.carousel-item .img-carosel1 {
+  width: 90%;
+  height: 100%;
 }
 
 .carousel-caption {
-    position: absolute; 
-    left: 64%; 
-    top: 2rem;
-}
-.list-group-item{
-    border:0;
-}
-.text-group{
- display: flex;   
- margin-top:10px;
-}
-img.praga-mosquito{
-    width: 10%;
-    margin-right: 10px;
-}
-img.praga-formiga{
-    width: 10%;
-    margin-right: 10px;
+  position: absolute;
+  left: 64%;
+  top: 2rem;
 }
 
+.list-group-item {
+  border: 0;
+}
 
+.text-group {
+  display: flex;
+  margin-top: 10px;
+}
+
+img.praga-mosquito {
+  width: 10%;
+  margin-right: 10px;
+}
+
+img.praga-formiga {
+  width: 10%;
+  margin-right: 10px;
+}
+
+.titulo-pragas{
+  margin-bottom: 2rem;
+}
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+
   .topnav a.icon {
     float: right;
     display: block;
@@ -41,12 +50,16 @@ img.praga-formiga{
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
+
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive a {
     float: none;
     display: block;
@@ -56,35 +69,96 @@ img.praga-formiga{
 
 
 .topnav {
-    background-color: #333;
-    overflow: hidden;
-    display: flex;
+  background-color: #333;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+/* ABAIXO FIZ PARA COPIAR O ESTILO DE UM ELEMENTO DE UMA PAGINA */
+.elemento-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.elementor-row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 768px) {
+
+  .elementor-column.elementor-col-25,
+  .elementor-column[data-col="25"] {
+    width: 23.6%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
   }
+}
+
+.elementor-column {
+  min-height: 1px;
+  background-color: #fff;  
+}
+
+/* elementor-column */
+.elementor-column-wrap {
+  width: 100%;
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
-   
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+}
+.elementor-widget-wrap {
+  padding: 10px;
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+}
+.elementor-icon-box-wrapper {
+  text-align: center;
+}
+
+.elementor-icon-box-icon {
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 1024px){
+  .elementor-row {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
   }
-  
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
-  }
+}
+.elementor-row {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
