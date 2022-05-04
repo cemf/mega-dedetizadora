@@ -1,6 +1,7 @@
 body {
   padding: 0;
   background-color: #ebe7e7;
+  font-family: sans-serif;
 }
 
 .carousel-item .img-carosel1 {
@@ -37,6 +38,9 @@ img.praga-formiga {
   margin-bottom: 2rem;
 }
 
+.logo{
+  width: 22%;
+}
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {
     display: none;
@@ -133,7 +137,9 @@ img.praga-formiga {
   min-height: 1px;
   background-color: #fff;  
 }
-
+.manutencao{
+  margin-top:2rem;
+}
 /* elementor-column */
 .elementor-column-wrap {
   width: 100%;
