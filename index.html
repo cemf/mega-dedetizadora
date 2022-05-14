@@ -18,30 +18,39 @@
     </style>
   </head>
   <body>
-    <header>
-      <div class="topnav" id="myTopnav">
-        <!-- <a
-          href="/"
-          class="d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none active"
-        > -->
-          <img class="logo d-flex align-items-center mb-md-0 ms-4 me-auto" src="./img/logo2.png" alt="" />
-          <!-- logo 40 x 32 -->
-        <!-- </a> -->
-        <a href="#servicos" class="pt-4 parts">Serviços</a>
-        <a href="#contatos" class="pt-4 parts">Contato</a>
-        <a
+    <header class="header-fixed">
+
+      <div class="header-limiter">
+    
+        <h1><img class="logo" src="./img/logo2.png" alt="" /></h1>
+    
+        <nav>
+          <a href="#">Serviços</a>
+          <a href="#" class="selected">Contato</a>
+          <a
           href="https://web.whatsapp.com/send?phone=552198281-8555"
           target="_blank"
           class="nav-link active parts"
         >
           Solicite seu orçamento
         </a>
+        </nav>
+    
+      </div>
+    
+    </header>
+    <!-- <header>
+      <div class="topnav" id="myTopnav">
+        
+        <a href="#servicos" class="pt-4 parts"></a>
+        <a href="#contatos" class="pt-4 parts"></a>
+       
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
           icon
         </a>
       </div>
-    </header>
+    </header> -->
     <main>
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -102,8 +111,8 @@
             </svg>
             <img src="./img/Limpeza de prédios.jpg" alt="" />
             <div class="container">
-              <div class="carousel-caption text-start">
-                <h1>Limpeza de prédios e caixas d’ água será centro</h1>
+              <div class="carousel-caption text-center">
+                <h1>Limpeza de prédios e caixas d’ água </h1>
                 <p>
                   <a class="btn btn-lg btn-primary" href="#">
                     Limpeza de prédios e caixas d’ água
@@ -127,7 +136,7 @@
             </svg>
             <img src="./img/Pintura de prédios.jpg" alt="" />
             <div class="container">
-              <div class="carousel-caption text-start">
+              <div class="carousel-caption text-end">
                 <h1>Pintura de edifícios, Obras e reformas</h1>
                 <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
               </div>
@@ -192,7 +201,7 @@
                         </div>
                         <div class="elementor-icon-box-content">
                           <h3 class="elementor-icon-box-title">
-                            <span>Exterminaçao de Baratas</span>
+                            <span>Baratas</span>
                           </h3>
                           <p class="elementor-icon-box-description">
                             As Baratas podem passam semanas sem comer ou beber.
@@ -237,7 +246,7 @@
                             <span>Mosquitos</span>
                           </h3>
                           <p class="elementor-icon-box-description">
-                            Os Mosquitos são encontrados no mundo inteiro e têm
+                            São encontrados no mundo inteiro e têm
                             grande importância na saúde pública.Se alimentam de
                             líquidos como néctar, seiva ou sangue. Apenas as
                             fêmeas se alimentam de sangue. Podem transmitir
@@ -273,7 +282,7 @@
                         </div>
                         <div class="elementor-icon-box-content">
                           <h3 class="elementor-icon-box-title">
-                            <span>Desratização</span>
+                            <span>Ratos</span>
                           </h3>
                           <p class="elementor-icon-box-description">
                             Podem transmitir varias doenças como leptospirose,
