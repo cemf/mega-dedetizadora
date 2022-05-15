@@ -114,7 +114,7 @@ body.fixed .header-fixed .header-limiter nav {
 
   .header-fixed {
     padding: 20px 0;
-    height: 115px;
+    height: auto;
   }
 
   .header-fixed .header-limiter h1 {
@@ -131,7 +131,7 @@ body.fixed .header-fixed .header-limiter nav {
   .header-fixed .header-limiter nav {
     line-height: 1;
     float: none;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
 
   .header-fixed .header-limiter nav a {
