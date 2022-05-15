@@ -5,105 +5,106 @@ body {
 }
 
 .header-fixed {
-	background-color:#292c2f;
-	box-shadow:0 1px 1px #ccc;
-	padding: 20px 40px;
-	height: 80px;
-	color: #ffffff;
-	box-sizing: border-box;
-	top:-100px;
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px #ccc;
+  padding: 20px 40px;
+  height: 80px;
+  color: #ffffff;
+  box-sizing: border-box;
+  top: -100px;
 
-	-webkit-transition:top 0.3s;
-	transition:top 0.3s;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
 }
 
 .header-fixed .header-limiter {
-	max-width: 1200px;
-	text-align: center;
-	margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /*	The header placeholder. It is displayed when the header is fixed to the top of the
 	browser window, in order to prevent the content of the page from jumping up. */
 
-.header-fixed-placeholder{
-	height: 80px;
-	display: none;
+.header-fixed-placeholder {
+  height: 80px;
+  display: none;
 }
 
 /* Logo */
 
 .header-fixed .header-limiter h1 {
-	float: left;
-	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
-	line-height: 40px;
-	margin: 0;
+  float: left;
+  font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  margin: 0;
   width: 20%;
 }
-.logo{
+
+.logo {
   width: 100%;
 }
 
 .header-fixed .header-limiter h1 span {
-	color: #5383d3;
+  color: #5383d3;
 }
 
 /* The navigation links */
 
 .header-fixed .header-limiter a {
-	color: #ffffff;
-	text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .header-fixed .header-limiter nav {
-	font:16px Arial, Helvetica, sans-serif;
-	line-height: 40px;
-	float: right;
+  font: 16px Arial, Helvetica, sans-serif;
+  line-height: 40px;
+  float: right;
 }
 
-.header-fixed .header-limiter nav a{
-	display: inline-block;
-	padding: 0 5px;
-	text-decoration:none;
-	color: #ffffff;
-	opacity: 0.9;
+.header-fixed .header-limiter nav a {
+  display: inline-block;
+  padding: 0 5px;
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.9;
 }
 
-.header-fixed .header-limiter nav a:hover{
-	opacity: 1;
+.header-fixed .header-limiter nav a:hover {
+  opacity: 1;
 }
 
 .header-fixed .header-limiter nav a.selected {
-	color: #608bd2;
-	pointer-events: none;
-	opacity: 1;
+  color: #608bd2;
+  pointer-events: none;
+  opacity: 1;
 }
 
 /* Fixed version of the header */
 
 body.fixed .header-fixed {
-	padding: 10px 40px;
-	height: 50px;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 1;
+  padding: 10px 40px;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
 body.fixed .header-fixed-placeholder {
-	display: block;
+  display: block;
 }
 
 body.fixed .header-fixed .header-limiter h1 {
-	font-size: 24px;
-	line-height: 30px;
+  font-size: 24px;
+  line-height: 30px;
   width: 90%;
 }
 
 body.fixed .header-fixed .header-limiter nav {
-	line-height: 28px;
-	font-size: 13px;
+  line-height: 28px;
+  font-size: 13px;
 }
 
 
@@ -111,37 +112,46 @@ body.fixed .header-fixed .header-limiter nav {
 
 @media all and (max-width: 600px) {
 
-	.header-fixed {
-		padding: 20px 0;
-		height: 105px;
-	}
+  .header-fixed {
+    padding: 20px 0;
+    height: 115px;
+  }
 
-	.header-fixed .header-limiter h1 {
-		float: none;
-		margin: -8px 0 10px;
-		text-align: center;
-		font-size: 24px;
-		line-height: 1;
+  .header-fixed .header-limiter h1 {
+    float: none;
+    margin: -8px 0 10px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-	}
+  }
 
-	.header-fixed .header-limiter nav {
-		line-height: 1;
-		float:none;
+  .header-fixed .header-limiter nav {
+    line-height: 1;
+    float: none;
     margin-bottom: 100px;
-	}
+  }
 
-	.header-fixed .header-limiter nav a {
-		font-size: 13px;
-	}
+  .header-fixed .header-limiter nav a {
+    font-size: 13px;
+  }
 
-	body.fixed .header-fixed {
-		display: none;
-	}
+  body.fixed .header-fixed {
+    display: none;
+  }
 
 }
+
+.servicos {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: azure 2px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 
 
 .carousel-item .img-carosel1 {
@@ -176,7 +186,7 @@ img.praga-formiga {
   margin-right: 10px;
 }
 
-.titulo-pragas{
+.titulo-pragas {
   margin-bottom: 2rem;
 }
 
@@ -245,6 +255,7 @@ img.praga-formiga {
 .topnav .icon {
   display: none;
 }
+
 /* ABAIXO FIZ PARA COPIAR O ESTILO DE UM ELEMENTO DE UMA PAGINA */
 .elemento-container {
   display: -webkit-box;
@@ -264,6 +275,8 @@ img.praga-formiga {
 
 @media (min-width: 768px) {
 
+
+
   .elementor-column.elementor-col-25,
   .elementor-column[data-col="25"] {
     width: 23.6%;
@@ -275,21 +288,25 @@ img.praga-formiga {
 
 .elementor-column {
   min-height: 1px;
-  background-color: #fff;  
+  background-color: #fff;
   margin-bottom: 1rem;
 }
-.manutencao{
-  margin-top:2rem;
+
+.manutencao {
+  margin-top: 2rem;
 }
+
 /* elementor-column */
 .elementor-column-wrap {
   width: 100%;
-  
+
 }
+
 .elementor-widget-wrap {
   padding: 10px;
-  
+
 }
+
 .elementor-icon-box-wrapper {
   text-align: center;
 }
@@ -299,35 +316,42 @@ img.praga-formiga {
   margin-right: auto;
   margin-left: auto;
 }
-@media (max-width: 1024px){
+
+@media (max-width: 1024px) {
   .elementor-row {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 }
+
 .elementor-row {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
 
-.center-aligh{
+.center-aligh {
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.mt-60{
+
+.mt-60 {
   margin-top: 60px;
 }
-@media (max-width: 768px){
-  .contato{
+
+@media (max-width: 768px) {
+  .contato {
     margin-top: 70px;
+  }
+  .elementor-row {
+   padding:20px;
   }
 }
 
-.elementor-icon-box-description{
+.elementor-icon-box-description {
   text-align: justify;
   padding: 0 10px;
 }
