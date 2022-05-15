@@ -71,7 +71,7 @@
         </div>
 
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item item-praga ">
             <div class="container">
               <div class="carousel-caption servicos">
                 <h3>Controle de pragas</h3>
@@ -85,25 +85,24 @@
               alt=""
             />
           </div>
-          <div class="carousel-item">
-            <img src="./img/Limpeza de prédios.jpg" alt="" />
-            <div class="container">
-              <div class="carousel-caption text-center  servicos">
-                <h1>Limpeza de prédios e caixas d’ água </h1>
+          <div class="carousel-item limpeza-predios active">           
+            <div class="container-fluid">
+              <div class="carousel-caption text-center servicos">
+                <h3>Limpeza de prédios e caixas d’ água </h3>
                 <p>
                   <a class="btn btn-lg btn-primary" href="#">
                    Saiba mais
                   </a>
                 </p>
               </div>
+              <img src="./img/Limpeza de prédios.jpg" alt="" />
             </div>
           </div>
-          -->
-          <div class="carousel-item">         
+          <div class="carousel-item item-pintura ">         
             <img src="./img/Pintura de prédios.jpg" alt="" />
             <div class="container">
               <div class="carousel-caption text-end servicos">
-                <h1>Pintura de edifícios, Obras e reformas</h1>
+                <h3>Pintura de edifícios, Obras e reformas</h3>
                 <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
               </div>
             </div>
@@ -113,10 +112,10 @@
             <img src="./img/Mosaico 1300x600.jpg" alt="" />
             <div class="container">
               <div class="carousel-caption text-center servicos">
-                <h1>
+                <h3>
                   Instalações e manutenções elétricas, hidráulica,
                   <span>sistemas de gás e de ar central</span>
-                </h1>
+                </h3>
                 <p><a class="btn btn-lg btn-primary" href="#">Saiba mais</a></p>
               </div>
             </div>
@@ -320,7 +319,7 @@
                   <div class="">
                     <h5 class="mb-1 text-center p-3">Sistemas de Gaz</h5>
                   </div>
-                  <p class="mb-1">
+                  <p class="mb-1 text-center">
                     Os reguladores de pressão precisam ser selecionados para à pressão da rede de distribuição
                     interna onde estão instalados e a vazão adotada prevista
                     para os aparelhos a gás servidos por eles.
@@ -330,7 +329,7 @@
                   <div class="">
                     <h5 class="mb-1 text-center p-sm-3 p-md-3 p-3">Hidraulica</h5>
                   </div>
-                  <p class="mb-1">
+                  <p class="mb-1 text-center">
                     É uma intalaçao complexa em que precisa-se garantir os materiais
                     certos alem da instalação. A manutenção hidráulica
                     predial é do que um serviço preventivo, que visa averiguar
@@ -339,11 +338,11 @@
                   </p>
                 </div>
                 <div class="list-group-item">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Ar condicionado central</h5>
+                  <div class="">
+                    <h5 class="mb-1 text-center p-sm-3 p-md-3 p-3">Ar condicionado central</h5>
                   </div>
 
-                  <p class="mb-1">
+                  <p class="mb-1 text-center">
                     Se a sua residência é grande e você deseja climatizar toda
                     ela de forma eficiente, o ideal é montar uma central de ar, em residências ou ambientes
                     menores, é possível a utilização de outros aparelhos. A
@@ -354,11 +353,11 @@
                   </p>
                 </div>
                 <div class="list-group-item">
-                  <div class="d-flex w-100 justify-content-between">
-                    <h5 class="mb-1">Instalaçoes eletricas</h5>
+                  <div class="">
+                    <h5 class="mb-1 text-center p-sm-3 p-md-3 p-3">Instalaçoes eletricas</h5>
                   </div>
 
-                  <p class="mb-1">
+                  <p class="mb-1 text-center">
                     Os serviços de instalação e manutenção elétrica compreendem
                     desde a ligação dos postes das concessionárias até a ligação completa da rede
                     elétrica de baixa e média tensão. A manutenção elétrica
@@ -369,11 +368,11 @@
             </div>
           </div>
         </div>
-        <div class="album py-5 bg-light">
+        <div class="album py-5">
           <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
-              <div id="Limpeza" class="col">
-                <div class="card shadow-sm">
+              <div id="Limpeza" class="col card p-2">
+                <div class="card border-0 shadow-sm">
                   <img src="./img/Limpeza de prédios.jpg" alt="" />
                   <div class="card-body">
                     <h5>Limpeza de predios e caixas d'agua</h5>
@@ -403,8 +402,8 @@
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="card shadow-sm cen">
+              <div id="pintura" class="col border-0 card p-2">
+                <div class="card border-0 shadow-sm cen">
                   <img src="./img/Pintura de prédios.jpg" alt="" />
 
                   <div class="card-body">
@@ -491,18 +490,18 @@
         
       </section>
     </main>
-    <footer id="contato">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <div class="col-md-4 d-flex align-items-center">
-      <p>CNPJ: 10.198.203/0001-21</p>
-      <p>INEA: UNO15739/55.61.00</p>
-      <!-- <span class="text-muted">&copy; 2021 Company, Inc</span> -->
-    </div>
+    <!-- <footer class="container-fluid" id="contato">
+      <div class="row">
 
+        <div class="col-6"><p>CNPJ: 10.198.203/0001-21</p></div>
+        <div class="offset-lg-3 offset-md-4 col-sm-2 col-md-2 col-lg-3"><p>INEA: UNO15739/55.61.00</p></div>
+
+      </div> -->
+      
+      
+      <!-- <span class="text-muted">&copy; 2021 Company, Inc</span> -->  
      
-  </footer>
-     
-    </footer>
+    <!-- </footer> -->
     <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
     <!-- instalaçao e manutençao de : - coisa: textinho - coisa: textinho - - -->

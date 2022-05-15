@@ -109,6 +109,32 @@ body.fixed .header-fixed .header-limiter nav {
 
 
 /* Making the header responsive */
+.carousel-item{
+  height: fit-content;
+}
+
+@media all and (max-width: 769px) {
+  .carousel-item{
+    height: 22rem;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .item-praga{
+    height: 15rem;
+  }
+
+  .limpeza-predios .servicos{
+    top:3%;
+    height: fit-content;
+    padding-bottom: 10px;
+  }
+
+  /* .item-pintura{
+
+  } */
+}
+
 
 @media all and (max-width: 600px) {
 
@@ -157,6 +183,16 @@ body.fixed .header-fixed .header-limiter nav {
 .carousel-item .img-carosel1 {
   width: 90%;
   height: 100%;
+}
+
+@media screen and (max-width: 600px){
+  /* .img-carosel1{
+
+  } */
+
+  /* .item-praga{
+    height: 20rem;
+  } */
 }
 
 
@@ -355,3 +391,10 @@ img.praga-formiga {
   text-align: justify;
   padding: 0 10px;
 }
+
+/* footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+} */
