@@ -131,10 +131,12 @@ body.fixed .header-fixed .header-limiter nav {
     height: 15rem;
   }
 
-  .item-pintura{
+  .item-pintura, .item-pintura img{
     height: 15rem;
-    
   }
+
+
+
   .item-pintura .servicos{
     height: fit-content;
     padding-bottom: 0;
