@@ -110,6 +110,9 @@ body.fixed .header-fixed .header-limiter nav {
 
 /* Making the header responsive */
 
+.carousel-item {
+  height: 34rem;
+}
 
 @media all and (max-width: 769px) {
   .carousel-item{
@@ -208,7 +211,16 @@ body.fixed .header-fixed .header-limiter nav {
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  
 }
+
+.item-praga .servicos{
+  width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
 
 
 
@@ -343,6 +355,10 @@ img.praga-formiga {
 
 @media (min-width: 768px) {
 
+  .item-pintura .servicos{
+    width: fit-content;
+    left: 30%;
+  }
 
 
   .elementor-column.elementor-col-25,
