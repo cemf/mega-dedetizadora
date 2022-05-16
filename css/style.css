@@ -122,20 +122,42 @@ body.fixed .header-fixed .header-limiter nav {
     height: 15rem;
   }
 
+  .item-praga .servicos{
+    
+    padding-bottom: 0;
+  }
+
   .limpeza-predios{
     height: 15rem;
   }
 
   .item-pintura{
     height: 15rem;
-    /* width: ; */
+    
+  }
+  .item-pintura .servicos{
+    height: fit-content;
+    padding-bottom: 0;
+    
   }
 
   .limpeza-predios .servicos{
     top:3%;
-    padding-bottom: 5px;
+    padding-bottom: 0px;    
+    height: fit-content;
     
-    /* padding-bottom: 15px; */
+  }
+  .item-manutencoes, .item-manutencoes img{
+    height: 16rem;
+  }
+
+  
+  .item-manutencoes .servicos{
+    /* height: 20rem; */
+    background: rgba(0, 0, 0, 0.6);
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 0;
   }
 
   /* .item-pintura{
