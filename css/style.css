@@ -109,9 +109,7 @@ body.fixed .header-fixed .header-limiter nav {
 
 
 /* Making the header responsive */
-.carousel-item{
-  height: fit-content;
-}
+
 
 @media all and (max-width: 769px) {
   .carousel-item{
@@ -124,10 +122,20 @@ body.fixed .header-fixed .header-limiter nav {
     height: 15rem;
   }
 
+  .limpeza-predios{
+    height: 15rem;
+  }
+
+  .item-pintura{
+    height: 15rem;
+    /* width: ; */
+  }
+
   .limpeza-predios .servicos{
     top:3%;
-    height: fit-content;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    
+    /* padding-bottom: 15px; */
   }
 
   /* .item-pintura{
