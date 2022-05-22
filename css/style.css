@@ -10,6 +10,15 @@ body {
   font-family: BebasNeue;
 }
 
+.limpeza-predios .servicos {
+  width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  
+  }
+
 .marketing{
   padding: 0 20px;
 }
@@ -142,8 +151,7 @@ body.fixed .header-fixed .header-limiter nav {
     height: 15rem;
   }
 
-  .item-praga .servicos{
-    
+  .item-praga .servicos{    
     padding-bottom: 0;
   }
 
@@ -164,11 +172,13 @@ body.fixed .header-fixed .header-limiter nav {
   }
 
   .limpeza-predios .servicos{
-    top:3%;
+    /* top:3%; */
     padding-bottom: 0px;    
     height: fit-content;
+    width: 70%;
     
   }
+
   .item-manutencoes, .item-manutencoes img{
     height: 16rem;
   }
@@ -238,14 +248,18 @@ body.fixed .header-fixed .header-limiter nav {
 }
 
 
-.item-manutencoes .servicos {
+.item-manutencoes .servicos{
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
+  height: auto;
+  /* width: 70%; */
 
 }
+
+
 
 
 .carousel-item .img-carosel1 {
@@ -379,6 +393,8 @@ img.praga-formiga {
 
 @media (min-width: 768px) {
 
+  
+
   .item-pintura .servicos{
     width: fit-content;
     left: 30%;
@@ -457,6 +473,11 @@ img.praga-formiga {
   .elementor-row {
    padding:20px;
   }
+
+  .item-manutencoes .servicos{
+    width: 70%;  
+  }
+
 }
 
 .elementor-icon-box-description {
