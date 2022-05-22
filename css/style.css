@@ -27,6 +27,19 @@ body {
   padding: 20px;
 }
 
+.img-contato{
+  z-index: -1;
+  right: 0;
+  
+}
+.img-contato img{
+  width: 40%;
+}
+.orcamento{
+  left: 40% !important;
+}
+
+
 .header-fixed {
   background-color: #2B3990;
   box-shadow: 0 1px 1px #ccc;
@@ -143,6 +156,13 @@ body.fixed .header-fixed .header-limiter nav {
 @media all and (max-width: 769px) {
   .carousel-item{
     height: 22rem;
+  }
+  .img-contato{
+   display: none;
+    
+  }
+  .orcamento{
+    left: 50% !important;
   }
 }
 
@@ -485,9 +505,7 @@ img.praga-formiga {
   padding: 0 10px;
 }
 
-/* footer {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-} */
+footer {
+  background-color: #2B3990;
+  color: white;
+}
