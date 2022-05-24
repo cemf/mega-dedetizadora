@@ -394,6 +394,11 @@ img.praga-formiga {
   display: none;
 }
 
+.elemento-container.container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* ABAIXO FIZ PARA COPIAR O ESTILO DE UM ELEMENTO DE UMA PAGINA */
 .elemento-container {
   display: -webkit-box;
@@ -491,7 +496,7 @@ img.praga-formiga {
     margin-top: 70px;
   }
   .elementor-row {
-   padding:20px;
+   padding:10px;
   }
 
   .item-manutencoes .servicos{
