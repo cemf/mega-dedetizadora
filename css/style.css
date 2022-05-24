@@ -490,6 +490,14 @@ img.praga-formiga {
 .mt-60 {
   margin-top: 60px;
 }
+.border-rad-10{
+  border-radius: 12px;
+}
+
+.img-btn-orc{
+  width: 100%;
+}
+
 
 @media (max-width: 768px) {
   .contato {

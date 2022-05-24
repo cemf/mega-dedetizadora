@@ -6,3 +6,11 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+function changeImg(){
+  document.querySelector('.img-btn-orc').src = "img/Botão mouse over.png"
+}
+
+function mouseOut() {
+  document.querySelector('.img-btn-orc').src = "img/Botão normal.png"
+}
