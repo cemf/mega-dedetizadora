@@ -251,13 +251,16 @@ body.fixed .header-fixed .header-limiter nav {
   }
 
 }
-
+.z-index-high{
+  z-index: 9999999;
+}
 .servicos {
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   border-color: azure 2px;
   border-radius: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  z-index: 9999;
   
 }
 
@@ -498,6 +501,16 @@ img.praga-formiga {
   width: 100%;
 }
 
+.coverBorder{
+  height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 99;
+    -webkit-transition: .3s ease-in;
+    transition: .3s ease-in;
+    opacity: .8;
+    background: linear-gradient(180deg,transparent 30%,#000);
+}
 
 @media (max-width: 768px) {
   .contato {
