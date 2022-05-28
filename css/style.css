@@ -531,6 +531,58 @@ img.praga-formiga {
   padding: 0 10px;
 }
 
+@media (min-width: 576px){
+  .album-img{
+    max-height: 8rem;
+  }
+  .album-img-rol-2{
+    max-height: 12rem;;
+  }
+
+}
+
+@media (min-width: 767px){
+  .album-img{
+    max-height: 11rem;
+  }
+  .album-img-rol-2{
+    max-height: 15rem;
+  }
+
+}
+
+@media (min-width: 978px){
+  .album-img{
+    max-height: 15rem;
+  }
+  .album-img-rol-2{
+    max-height: 19rem;
+  }
+
+}
+
+@media (min-width: 1200px){
+  .album-img{
+    max-height: 18rem;
+  }
+  .album-img-rol-2{
+    max-height: 22rem;
+  }
+
+}
+@media (min-width: 1400px){
+  .album-img{
+    max-height: 21rem;
+  }
+  .album-img-rol-2{
+    max-height: 470px;
+  }
+
+}
+
+
+
+
 footer {
   background-color: #2B3990;
   color: white;
