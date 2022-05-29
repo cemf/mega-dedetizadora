@@ -516,9 +516,6 @@ img.praga-formiga {
   .contato {
     margin-top: 70px;
   }
-  .elementor-row {
-   padding:10px;
-  }
 
   .item-manutencoes .servicos{
     width: 70%;  
@@ -529,16 +526,6 @@ img.praga-formiga {
 .elementor-icon-box-description {
   text-align: justify;
   padding: 0 10px;
-}
-
-@media (min-width: 576px){
-  .album-img{
-    max-height: 8rem;
-  }
-  .album-img-rol-2{
-    max-height: 12rem;;
-  }
-
 }
 
 @media (min-width: 767px){
@@ -574,10 +561,6 @@ img.praga-formiga {
   .album-img{
     max-height: 21rem;
   }
-  .album-img-rol-2{
-    max-height: 470px;
-  }
-
 }
 
 
