@@ -563,7 +563,14 @@ img.praga-formiga {
   }
 }
 
-
+@media (max-width:992px){
+  .order-1-fachada{
+    order: 1;
+  }
+  .order-2-fachada{
+    order: 2;
+  }
+}
 
 
 footer {
