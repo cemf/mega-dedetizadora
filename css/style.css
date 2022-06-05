@@ -10,6 +10,11 @@ body {
   font-family: BebasNeue;
 }
 
+.item-praga .servicos p{
+  padding-top:10px;  
+}
+
+
 .limpeza-predios .servicos {
   width: fit-content;
     margin-left: auto;
@@ -264,11 +269,7 @@ body.fixed .header-fixed .header-limiter nav {
   
 }
 
-.item-praga .servicos{
-  width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 
 
 .item-manutencoes .servicos{

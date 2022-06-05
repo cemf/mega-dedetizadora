@@ -1,246 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mega Dedetizadora</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/carousel.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <style>
+      /* Make the image fully responsive */
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mega Dedetizadora</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet" />
-  <link href="css/carousel.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
-  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-  <style>
-    /* Make the image fully responsive */
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
 
-    .carousel-inner img {
-      width: 100%;
-      height: 100%;
-    }
-  </style>
-</head>
+  <body>
+    <header class="header-fixed">
+      <div class="header-limiter">
+        <h1 class="d-flex">
+          <!-- <img src="./img/logo_com_cristo.png" class="logo w-100" alt="" /> -->
+          <img class="logo" src="./img/logo2.png" alt="" />
+        </h1>
 
-<body>
-  <header class="header-fixed">
-
-    <div class="header-limiter">
-
-      <h1><img class="logo" src="./img/logo2.png" alt="" /></h1>
-
-      <nav>
-        <a href="#servicos">Serviços</a>
-        <a href="#contato">Contato</a>
-        <a href="https://web.whatsapp.com/send?phone=552198281-8555" target="_blank" class="nav-link active parts">
-          Solicite seu orçamento
-        </a>
-      </nav>
-
-    </div>
-
-  </header>
-  <main>
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active z-index-high"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <nav>
+          <a href="#servicos">Serviços</a>
+          <a href="#contato">Contato</a>
+          <a
+            href="https://web.whatsapp.com/send?phone=552198281-8555"
+            target="_blank"
+            class="nav-link active parts"
+          >
+            Solicite seu orçamento
+          </a>
+        </nav>
       </div>
+    </header>
+    <main>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class="active z-index-high"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 5"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="3"
+            aria-label="Slide 6"
+          ></button>
+        </div>
 
-      <div class="carousel-inner">
-        <div class="carousel-item item-praga ">
-          <div class="container">
-            <div class="carousel-caption servicos">
-              <h3>Controle de pragas</h3>
+        <div class="carousel-inner">
+          <div class="carousel-item item-praga slide1 active">
+            <div class="container">
+              <div class="carousel-caption text-start servicos">
+                <div class="row">
+                  <div class="col-md-3">
+                
+                <h3>Controle de pragas</h3>
 
-              <p><a class="btn btn-lg btn-primary" href="#servicos">Saiba mais</a></p>
+                <p class="text-center">
+                  <a class="btn btn-lg btn-primary" href="#servicos">
+                    Saiba mais
+                  </a>
+                </p>
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="coverBorder"></div>
+            <img
+              class="img-carosel1"
+              src="./img/controle_de_pragas .jpg"
+              alt=""
+            />
+          </div>
+          <div class="carousel-item limpeza-predios">
+            <div class="container-fluid p-0">
+              <div class="carousel-caption text-center servicos">
+                <h3>Limpeza de prédios e caixas d’ água</h3>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#limpeza-predios">
+                    Saiba mais
+                  </a>
+                </p>
+              </div>
+              <div class="coverBorder"></div>
+              <img src="./img/Limpeza de prédios.jpg" alt="" />
             </div>
           </div>
-          <div class='coverBorder'></div>
-          <img class="img-carosel1" src="./img/controle_de_pragas .jpg" alt="" />
+          <div class="carousel-item item-pintura">
+            <div class="container">
+              <div class="carousel-caption text-end servicos">
+                <h3>Pintura de edifícios, Obras e reformas</h3>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#pintura">
+                    Saiba mais
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="coverBorder"></div>
+            <img src="./img/Pintura de prédios.jpg" alt="" />
+          </div>
 
-        </div>
-        <div class="carousel-item limpeza-predios  ">
-          <div class="container-fluid p-0">
-            <div class="carousel-caption text-center servicos">
-              <h3>Limpeza de prédios e caixas d’ água </h3>
-              <p>
-                <a class="btn btn-lg btn-primary" href="#limpeza-predios">
-                  Saiba mais
-                </a>
-              </p>
+          <div class="carousel-item item-manutencoes ">
+            <div class="container">
+              <div class="carousel-caption text-center servicos">
+                <h5>
+                  Instalações e manutenções elétricas, hidráulica,
+                  <span>sistemas de gás e de ar central</span>
+                </h5>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#instalacoes">
+                    Saiba mais
+                  </a>
+                </p>
+              </div>
             </div>
-            <div class='coverBorder'></div>
-            <img src="./img/Limpeza de prédios.jpg" alt="" />
+            <div class="coverBorder"></div>
+            <img src="./img/Mosaico 1300x600.jpg" alt="" />
           </div>
         </div>
-        <div class="carousel-item item-pintura">
-          <div class="container">
-            <div class="carousel-caption text-end servicos">
-              <h3>Pintura de edifícios, Obras e reformas</h3>
-              <p><a class="btn btn-lg btn-primary" href="#pintura">Saiba mais</a></p>
-            </div>
-          </div>
-          <div class='coverBorder'></div>
-          <img src="./img/Pintura de prédios.jpg" alt="" />
-        </div>
-
-        <div class="carousel-item item-manutencoes active">
-          <div class="container">
-            <div class="carousel-caption text-center servicos">
-              <h5>
-                Instalações e manutenções elétricas, hidráulica,
-                <span>sistemas de gás e de ar central</span>
-              </h5>
-              <p><a class="btn btn-lg btn-primary" href="#instalacoes">Saiba mais</a></p>
-            </div>
-          </div>
-          <div class='coverBorder'></div>
-          <img src="./img/Mosaico 1300x600.jpg" alt="" />
-        </div>
+        <button
+          class="carousel-control-prev z-index-high"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span
+            class="carousel-control-prev-icon bg-black"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next z-index-high"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span
+            class="carousel-control-next-icon bg-black"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev z-index-high" type="button" data-bs-target="#myCarousel"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bg-black " aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next z-index-high" type="button" data-bs-target="#myCarousel"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon bg-black" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <section id="servicos">
-      <div class="elementor-container elementor-column-gap-default container">
-        <h3 class="titulo-pragas text-center">
-          Imunização e controle de pragas urbanas
-        </h3>
-        <div class="elementor-row">
-          <div
-            class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-241210cd"
-            data-id="241210cd" data-element_type="column">
-            <div class="elementor-column-wrap elementor-element-populated">
-              <div class="elementor-widget-wrap">
-                <div
-                  class="elementor-element elementor-element-18b47c5 elementor-view-framed elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                  data-id="18b47c5" data-element_type="widget" data-widget_type="icon-box.default">
-                  <div class="elementor-widget-container">
-                    <div class="elementor-icon-box-wrapper">
-                      <div class="elementor-icon-box-icon">
-                        <img class="w-50" src="./img/barata.png" alt="" />
-                      </div>
-                      <div class="elementor-icon-box-content">
-                        <h3 class="elementor-icon-box-title">
-                          <span>Baratas</span>
-                        </h3>
-                        <p class="elementor-icon-box-description">
-                          As Baratas podem passam semanas sem comer ou beber.
-                          Carregam diversas bactérias, vírus e fungos do
-                          esgoto e os fragmentos de seu corpo (patas, asas,
-                          antenas…) são gatilhos de reações alérgicas e crises
-                          de asma em pessoas mais sensíveis.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-47d1a4fd"
-            data-id="47d1a4fd" data-element_type="column">
-            <div class="elementor-column-wrap elementor-element-populated">
-              <div class="elementor-widget-wrap">
-                <div
-                  class="elementor-element elementor-element-c7b8a56 elementor-view-framed elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                  data-id="c7b8a56" data-element_type="widget" data-widget_type="icon-box.default">
-                  <div class="elementor-widget-container">
-                    <div class="elementor-icon-box-wrapper">
-                      <div class="elementor-icon-box-icon">
-                        <span class="elementor-icon elementor-animation-grow">
-                          <img class="w-50" src="./img/mosquitos.png" alt="" />
-                        </span>
-                      </div>
-                      <div class="elementor-icon-box-content">
-                        <h3 class="elementor-icon-box-title">
-                          <span>Mosquitos</span>
-                        </h3>
-                        <p class="elementor-icon-box-description">
-                          São encontrados no mundo inteiro e têm
-                          grande importância na saúde pública.Se alimentam de
-                          líquidos como néctar, seiva ou sangue. Apenas as
-                          fêmeas se alimentam de sangue. Podem transmitir
-                          doenças, como dengue, febre amarela, malária, entre
-                          outras.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2e8283f6"
-            data-id="2e8283f6" data-element_type="column">
-            <div class="elementor-column-wrap elementor-element-populated">
-              <div class="elementor-widget-wrap">
-                <div
-                  class="elementor-element elementor-element-6987305 elementor-view-framed elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                  data-id="6987305" data-element_type="widget" data-widget_type="icon-box.default">
-                  <div class="elementor-widget-container">
-                    <div class="elementor-icon-box-wrapper">
-                      <div class="elementor-icon-box-icon">
-                        <span class="elementor-icon elementor-animation-grow">
-                          <img class="w-50" src="./img/ratos.png" alt="" />
-                        </span>
-                      </div>
-                      <div class="elementor-icon-box-content">
-                        <h3 class="elementor-icon-box-title">
-                          <span>Ratos</span>
-                        </h3>
-                        <p class="elementor-icon-box-description">
-                          Podem transmitir varias doenças como leptospirose,
-                          tifo e hantavirose. Nas indústrias, os estragos
-                          causados por esses roedores nas fiações elétricas
-                          causam incêndios. Roem chumbo, alumínio, cimento,
-                          tijolo, plástico alem de madeira
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-126117f"
-            data-id="126117f" data-element_type="column">
-            <div class="elementor-column-wrap elementor-element-populated">
-              <div class="elementor-widget-wrap">
-                <div
-                  class="elementor-element elementor-element-508fa88 elementor-view-framed elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                  data-id="508fa88" data-element_type="widget" data-widget_type="icon-box.default">
-                  <div class="elementor-widget-container">
-                    <div class="elementor-icon-box-wrapper">
-                      <div class="elementor-icon-box-icon">
-                        <div class="me-2">
-                          <img class="w-50" src="./img/formiga.png" alt="" />
+      <section id="servicos">
+        <div class="elementor-container elementor-column-gap-default container">
+          <h3 class="titulo-pragas text-center">
+            Imunização e controle de pragas urbanas
+          </h3>
+          <div class="elementor-row">
+            <div
+              class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-241210cd"
+              data-id="241210cd"
+              data-element_type="column"
+            >
+              <div class="elementor-column-wrap elementor-element-populated">
+                <div class="elementor-widget-wrap">
+                  <div
+                    class="elementor-element elementor-element-18b47c5 elementor-view-framed elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                    data-id="18b47c5"
+                    data-element_type="widget"
+                    data-widget_type="icon-box.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="elementor-icon-box-wrapper">
+                        <div class="elementor-icon-box-icon">
+                          <img class="w-50" src="./img/barata.png" alt="" />
+                        </div>
+                        <div class="elementor-icon-box-content">
+                          <h3 class="elementor-icon-box-title">
+                            <span>Baratas</span>
+                          </h3>
+                          <p class="elementor-icon-box-description">
+                            As Baratas podem passam semanas sem comer ou beber.
+                            Carregam diversas bactérias, vírus e fungos do
+                            esgoto e os fragmentos de seu corpo (patas, asas,
+                            antenas…) são gatilhos de reações alérgicas e crises
+                            de asma em pessoas mais sensíveis.
+                          </p>
                         </div>
                       </div>
-                      <div class="elementor-icon-box-content">
-                        <h3 class="elementor-icon-box-title">
-                          <span>Formigas</span>
-                        </h3>
-                        <p class="elementor-icon-box-description">
-                          Na rota delas em busca de alimento podem passar por
-                          fezes, feridas, escarros, lixeiras e animais mortos.
-                          Por passar por estes lugares, elas podem carregar
-                          bactérias, fungos e vírus. São consideradas um vetor
-                          de quase todas as doenças infecciosas.
-                        </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-47d1a4fd"
+              data-id="47d1a4fd"
+              data-element_type="column"
+            >
+              <div class="elementor-column-wrap elementor-element-populated">
+                <div class="elementor-widget-wrap">
+                  <div
+                    class="elementor-element elementor-element-c7b8a56 elementor-view-framed elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                    data-id="c7b8a56"
+                    data-element_type="widget"
+                    data-widget_type="icon-box.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="elementor-icon-box-wrapper">
+                        <div class="elementor-icon-box-icon">
+                          <span class="elementor-icon elementor-animation-grow">
+                            <img
+                              class="w-50"
+                              src="./img/mosquitos.png"
+                              alt=""
+                            />
+                          </span>
+                        </div>
+                        <div class="elementor-icon-box-content">
+                          <h3 class="elementor-icon-box-title">
+                            <span>Mosquitos</span>
+                          </h3>
+                          <p class="elementor-icon-box-description">
+                            São encontrados no mundo inteiro e têm grande
+                            importância na saúde pública.Se alimentam de
+                            líquidos como néctar, seiva ou sangue. Apenas as
+                            fêmeas se alimentam de sangue. Podem transmitir
+                            doenças, como dengue, febre amarela, malária, entre
+                            outras.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-2e8283f6"
+              data-id="2e8283f6"
+              data-element_type="column"
+            >
+              <div class="elementor-column-wrap elementor-element-populated">
+                <div class="elementor-widget-wrap">
+                  <div
+                    class="elementor-element elementor-element-6987305 elementor-view-framed elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                    data-id="6987305"
+                    data-element_type="widget"
+                    data-widget_type="icon-box.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="elementor-icon-box-wrapper">
+                        <div class="elementor-icon-box-icon">
+                          <span class="elementor-icon elementor-animation-grow">
+                            <img class="w-50" src="./img/ratos.png" alt="" />
+                          </span>
+                        </div>
+                        <div class="elementor-icon-box-content">
+                          <h3 class="elementor-icon-box-title">
+                            <span>Ratos</span>
+                          </h3>
+                          <p class="elementor-icon-box-description">
+                            Podem transmitir varias doenças como leptospirose,
+                            tifo e hantavirose. Nas indústrias, os estragos
+                            causados por esses roedores nas fiações elétricas
+                            causam incêndios. Roem chumbo, alumínio, cimento,
+                            tijolo, plástico alem de madeira
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-126117f"
+              data-id="126117f"
+              data-element_type="column"
+            >
+              <div class="elementor-column-wrap elementor-element-populated">
+                <div class="elementor-widget-wrap">
+                  <div
+                    class="elementor-element elementor-element-508fa88 elementor-view-framed elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                    data-id="508fa88"
+                    data-element_type="widget"
+                    data-widget_type="icon-box.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="elementor-icon-box-wrapper">
+                        <div class="elementor-icon-box-icon">
+                          <div class="me-2">
+                            <img class="w-50" src="./img/formiga.png" alt="" />
+                          </div>
+                        </div>
+                        <div class="elementor-icon-box-content">
+                          <h3 class="elementor-icon-box-title">
+                            <span>Formigas</span>
+                          </h3>
+                          <p class="elementor-icon-box-description">
+                            Na rota delas em busca de alimento podem passar por
+                            fezes, feridas, escarros, lixeiras e animais mortos.
+                            Por passar por estes lugares, elas podem carregar
+                            bactérias, fungos e vírus. São consideradas um vetor
+                            de quase todas as doenças infecciosas.
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -249,78 +343,105 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="instalacoes">
-      <div class="album py-5 ">
-        <div class="container">
-          <h3 class="titulo-pragas manutencao text-center">
-            Manutençao e instalaçao de :
-          </h3>
-          <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
-            <div class="col">
-              <div class="card shadow-sm">
-                <img class="album-img" src="./img/Instalação de gás.jpg" alt="">
+      </section>
+      <section id="instalacoes">
+        <div class="album py-5">
+          <div class="container">
+            <h3 class="titulo-pragas manutencao text-center">
+              Manutençao e instalaçao de :
+            </h3>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="album-img"
+                    src="./img/Instalação de gás.jpg"
+                    alt=""
+                  />
 
-                <div class="card-body">
-                  <h4>Sistemas de gaz</h4>
-                  <p class="card-text text-justify">Os reguladores de pressão precisam ser selecionados para a
-                    realização do
-                    atendimento à pressão da rede de distribuição interna e a vazão adotada
-                    prevista para os aparelhos a gás servidos por eles. Os reguladores de pressão devem ser conforme
-                    ABNT NBR 15590. A falta de manutenção das redes de gás exigem obras que envolvem
-                    quebra de paredes, trocas de equipamentos caros e outras despesas não previstas</p>
+                  <div class="card-body">
+                    <h4>Sistemas de gaz</h4>
+                    <p class="card-text text-justify">
+                      Os reguladores de pressão precisam ser selecionados para a
+                      realização do atendimento à pressão da rede de
+                      distribuição interna e a vazão adotada prevista para os
+                      aparelhos a gás servidos por eles. Os reguladores de
+                      pressão devem ser conforme ABNT NBR 15590. A falta de
+                      manutenção das redes de gás exigem obras que envolvem
+                      quebra de paredes, trocas de equipamentos caros e outras
+                      despesas não previstas
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img class="album-img" src="./img/Instalação Hidráulica.jpg" alt="">
-                <div class="card-body">
-                  <h4>Sistemas Hidraulicos</h4>
-                  <p class="card-text text-justify">Instalação hidráulica é o sistema de abastecimento, distribuição e
-                    escoamento de
-                    água. Ela é composta pelos projetos arquitetônico e hidráulico, caixa d’água, redes de distribuição
-                    de água fria e quente, coleta de esgoto e águas pluviais.
-                    Uma instalação hidráulica é um trabalho complexo, que exige o conhecimento de especialistas para
-                    garantir os materiais certos e a instalação correta. Este serviço é um serviço
-                    preventivo</p>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="album-img"
+                    src="./img/Instalação Hidráulica.jpg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h4>Sistemas Hidraulicos</h4>
+                    <p class="card-text text-justify">
+                      Instalação hidráulica é o sistema de abastecimento,
+                      distribuição e escoamento de água. Ela é composta pelos
+                      projetos arquitetônico e hidráulico, caixa d’água, redes
+                      de distribuição de água fria e quente, coleta de esgoto e
+                      águas pluviais. Uma instalação hidráulica é um trabalho
+                      complexo, que exige o conhecimento de especialistas para
+                      garantir os materiais certos e a instalação correta. Este
+                      serviço é um serviço preventivo
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img class="album-img-rol-2" src="./img/Instalação de ar central.jpg" alt="">
-                <div class="card-body">
-                  <h4>Sistemas de Ar Central</h4>
-                  <p class="card-text text-justify">Se a sua residência é grande e você deseja climatizar toda ela de
-                    forma
-                    eficiente, o ideal é montar uma central de ar, em residências ou ambientes menores, é possível a
-                    utilização de outros aparelhos. A manutenção do sistema de ar condicionado é necessária porque o
-                    sistema de ar condicionado sem manutenção pode produzindo bactérias e fungos nocivos ao sistema
-                    respiratório e causar diversas doenças.</p>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="album-img-rol-2"
+                    src="./img/Instalação de ar central.jpg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h4>Sistemas de Ar Central</h4>
+                    <p class="card-text text-justify">
+                      Se a sua residência é grande e você deseja climatizar toda
+                      ela de forma eficiente, o ideal é montar uma central de
+                      ar, em residências ou ambientes menores, é possível a
+                      utilização de outros aparelhos. A manutenção do sistema de
+                      ar condicionado é necessária porque o sistema de ar
+                      condicionado sem manutenção pode produzindo bactérias e
+                      fungos nocivos ao sistema respiratório e causar diversas
+                      doenças.
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img class="album-img-rol-2" src="./img/Instalação elétrica.jpg" alt="">
-                <div class="card-body">
-                  <h4><b>Instalações eletricas</b></h4>
-                  <p class="card-text text-justify">Os serviços de instalação e manutenção elétrica compreendem desde a
-                    ligação dos
-                    postes das concessionárias até a ligação completa da rede elétrica de baixa e média tensão. A
-                    manutenção
-                    elétrica preventiva tem um papel fundamental nas empresas, pois é capaz de evitar acidentes e
-                    problemas causados pelo mau funcionamento de máquinas e instalações, como incêndios e paradas
-                    inesperadas.</p>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    class="album-img-rol-2"
+                    src="./img/Instalação elétrica.jpg"
+                    alt=""
+                  />
+                  <div class="card-body">
+                    <h4><b>Instalações eletricas</b></h4>
+                    <p class="card-text text-justify">
+                      Os serviços de instalação e manutenção elétrica
+                      compreendem desde a ligação dos postes das concessionárias
+                      até a ligação completa da rede elétrica de baixa e média
+                      tensão. A manutenção elétrica preventiva tem um papel
+                      fundamental nas empresas, pois é capaz de evitar acidentes
+                      e problemas causados pelo mau funcionamento de máquinas e
+                      instalações, como incêndios e paradas inesperadas.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- <div class="album limpeza-pintura">
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 g-3">
             <div id="limpeza-predios" class="col card p-2">
@@ -390,145 +511,194 @@
           </div>
         </div>
       </div> -->
-    </section>
-    <section id="pintura-reforma">
-      <div class="container col-xxl-12">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-sm-12 col-lg-6">
-            <img src="./img/Limpeza de prédios.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-              width="700" height="500" loading="lazy">
-          </div>
-          <div class="col-lg-6">
-            <h3 class="display-6 fw-bold lh-1 mb-3">Limpeza de predios</h3>
-            <p class="lead text-justify">A lavagem de fachada de prédio é feita com escovas ou brochas específicas, com
-              hidrojateamento e detergentes. Caso a fachada do prédio for de vidro, ainda pode ser feito o acabamento de
-              secagem com rodo.
-            </p>
-            <p class="lead">
-              É algo que pode beneficiar tanto os condomínios quanto
-              os condôminos
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container col-xxl-12">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-lg-6 order-2-fachada">
-            <h3 class="display-6 fw-bold lh-1 mb-3">Pintura de fachadas</h3>
-            <p class="lead text-justify">A fachada do condomínio é tudo aquilo que compõe a área visível das faces de um
-              imóvel. Ela
-              pode ser externa (frente, laterais e fundo do prédio) ou
-              interna (espaços de área comum). Realizar a pintura do
-              edifício ajuda na prevenção da degradação das paredes, provocada, geralmente, por
-              infiltrações e umidade no prédio.
-            </p>
-            <p><strong> Realizamos serviços de pintura de fachadas em prédios comerciais,
-                residenciais e industriais. </strong> </p>
-          </div>
-          <div class="col-sm-12 col-lg-6 order-1-fachada">
-            <img src="./img/Pintura de prédios.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-              width="700" height="500" loading="lazy">
+      </section>
+      <section id="pintura-reforma">
+        <div class="container col-xxl-12">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6 order-2-fachada">
+              <h3 class="display-6 fw-bold lh-1 mb-3">
+                Limpeza de caixas d'agua
+              </h3>
+              <p class="lead text-justify">
+                Você sabia que deve fazer a limpeza da caixa d’água a cada seis
+                meses? O reservatório de água das casas precisa ser higienizado
+                para evitar a contaminação e surgimento de bactérias que afetam
+                diretamente a saúde da família, além de prevenir imprevistos com
+                encanamentos entupidos. A limpeza da caixa d’água das
+                residências é fundamental para garantir um ambiente adequado e
+                livre de bactérias, para reservar água. A contaminação da água
+                põe em risco a saúde e provoca doenças como diarreia, hepatite,
+                leptospirose, entre outras.
+              </p>
+            </div>
+            <div class="col-sm-12 col-lg-6 order-1-fachada">
+              <img
+                src="./img/Limpeza de Caixa d' água (1).jpg"
+                class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      <div class="container col-xxl-12">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-sm-12">
-            <img src="./img/Limpeza de Caixa d' água (1).jpg" class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        <div class="container col-xxl-12">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-sm-12 col-lg-6">
+              <img
+                src="./img/Limpeza de prédios.jpg"
+                class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h3 class="display-6 fw-bold lh-1 mb-3">Limpeza de predios</h3>
+              <p class="lead text-justify">
+                A lavagem de fachada de prédio é feita com escovas ou brochas
+                específicas, com hidrojateamento e detergentes. Caso a fachada
+                do prédio for de vidro, ainda pode ser feito o acabamento de
+                secagem com rodo.
+              </p>
+              <p class="lead">
+                É algo que pode beneficiar tanto os condomínios quanto os
+                condôminos
+              </p>
+            </div>
           </div>
-          <div class="col-sm-12">
-            <h3 class="display-6 fw-bold lh-1 mb-3">Limpeza de caixas d'agua</h3>
-            <p class="lead text-justify">Você sabia que deve fazer a limpeza da caixa d’água a cada seis meses?
-              O reservatório de água das casas precisa ser higienizado para evitar a contaminação e surgimento de
-              bactérias que afetam diretamente a saúde da família, além de prevenir imprevistos com encanamentos
-              entupidos.
-              A limpeza da caixa d’água das residências é fundamental para garantir um ambiente adequado e livre de
-              bactérias, para reservar água. A contaminação da água põe em risco a saúde e provoca doenças como
-              diarreia, hepatite, leptospirose, entre outras.
-            </p>
-            <p class="lead">
-              É algo que pode beneficiar tanto os condomínios quanto
-              os condôminos
-            </p>
-          </div>
-         
         </div>
-      </div>
-
-    </section>
-    <!-- Inicio -->
-    <!-- Quem somos - Página apresentando a empresa, onde fica, quanto tempo no mercado e quais tipos de serviço atua -->
-    <!-- Serviços - Uma lista dos serviços que a empresa desenvolve Contatos - Uma
+        <div class="container col-xxl-12">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-lg-6 order-2-fachada">
+              <h3 class="display-6 fw-bold lh-1 mb-3">Pintura de fachadas</h3>
+              <p class="lead text-justify">
+                A fachada do condomínio é tudo aquilo que compõe a área visível
+                das faces de um imóvel. Ela pode ser externa (frente, laterais e
+                fundo do prédio) ou interna (espaços de área comum). Realizar a
+                pintura do edifício ajuda na prevenção da degradação das
+                paredes, provocada, geralmente, por infiltrações e umidade no
+                prédio.
+              </p>
+              <p>
+                <strong>
+                  Realizamos serviços de pintura de fachadas em prédios
+                  comerciais, residenciais e industriais.
+                </strong>
+              </p>
+            </div>
+            <div class="col-sm-12 col-lg-6 order-1-fachada">
+              <img
+                src="./img/Pintura de prédios.jpg"
+                class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="container col-xxl-12">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-sm-12 col-lg-6">
+              <img
+                src="./img/reforma.jpg"
+                class="d-block mx-lg-auto img-fluid"
+                alt="Bootstrap Themes"
+                width="700"
+                height="500"
+                loading="lazy"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h3 class="display-6 fw-bold lh-1 mb-3">Obras e reformas</h3>
+              <p class="lead text-justify">
+                Os tipos de reforma dividem-se basicamente em 3 grupos. 
+                Layout do imóvel - Trata-se das mudanças para melhorar
+                o aproveitamento do ambiente, seja integrando espaços, incluindo
+                novos móveis ou trocando a iluminação. Troca de piso e
+                revestimento - simples troca dos pisos e revestimentos, essa mudança também
+                pode deixar o espaço mais prático e seguro. Solução para
+                problemas estruturais - Nesse tipo de reforma de casas, a ideia
+                é solucionar problemas relacionados a danos estruturais nas
+                paredes, vazamentos, problemas no telhado e melhorias na rede
+                elétrica e hidráulica.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Inicio -->
+      <!-- Quem somos - Página apresentando a empresa, onde fica, quanto tempo no mercado e quais tipos de serviço atua -->
+      <!-- Serviços - Uma lista dos serviços que a empresa desenvolve Contatos - Uma
       página para apontar os caminhos para que o cliente saiba como entrar em
       contato contigo. Solicite orçamento 1. Controle de pragas 2. Limpeza de
       prédios e caixas d’ água 4. Pintura de edifícios, Obras e reformas 5.
       Instalação e manutenção elétrica, hidráulica, de sistemas de gás e de ar
       central\ -->
-    <section class="mt-4" id="contatos">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-            <div class="row mb-5 position-relative">
-              <div class="col-md-6 mr-auto position-relative mt-60">
-                <div class="d-grid gap-2 text-center orcamento d-sm-flex justify-content-sm-center center-aligh">
-                  <a href="https://web.whatsapp.com/send?phone=552198281-8555" target="_blank">
-                    <img onmouseover="changeImg()" onmouseout="mouseOut()"" class=" img-btn-orc"
-                      src="img/Botão normal.png" alt="">
-                  </a>
-                  <!-- <a
+      <section class="mt-4" id="contatos">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+              <div class="row mb-5 position-relative">
+                <div class="col-md-6 mr-auto position-relative mt-60">
+                  <div
+                    class="d-grid gap-2 text-center orcamento d-sm-flex justify-content-sm-center center-aligh"
+                  >
+                    <a
+                      href="https://web.whatsapp.com/send?phone=552198281-8555"
+                      target="_blank"
+                    >
+                      <img onmouseover="changeImg()" onmouseout="mouseOut()""
+                      class=" img-btn-orc" src="img/Botão normal.png" alt="">
+                    </a>
+                    <!-- <a
                     href="https://web.whatsapp.com/send?phone=552198281-8555"
                     target="_blank"
                   >
                     <img class="img-btn-orc" src="img/Botão normal.png" alt="">
                   </a> -->
+                  </div>
                 </div>
-
-              </div>
-              <!-- <div class="img-contato position-absolute ">
+                <!-- <div class="img-contato position-absolute ">
                   <img src="img/logo_com_cristo.png" alt="">
                 </div> -->
-              <div class="col-md-6 ml-auto contato ">
-                <h3 class="thin-heading mb-4">Contato:</h3>
-                <p>
-                  Telefones:
-                  <br />
-                  Tel 1: (21) 3274-5323
-                  <br />
-                  Tel2: (21) 3081-0473
-                  <br />
-                  <br />
-                  email:insetrio@gmail.com
-                </p>
+                <div class="col-md-6 ml-auto contato">
+                  <h3 class="thin-heading mb-4">Contato:</h3>
+                  <p>
+                    Telefones:
+                    <br />
+                    Tel 1: (21) 3274-5323
+                    <br />
+                    Tel2: (21) 3081-0473
+                    <br />
+                    <br />
+                    email:insetrio@gmail.com
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+    </main>
+
+    <footer class="container-fluid footer">
+      <div class="row">
+        <div class="col-6">
+          <p>CNPJ: 10.198.203/0001-21</p>
+        </div>
+        <div class="offset-lg-3 offset-md-4 col-sm-2 col-md-2 col-lg-3">
+          <p>INEA: UNO15739/55.61.00</p>
+        </div>
       </div>
 
-
-    </section>
-  </main>
-
-  <footer class="container-fluid footer">
-    <div class="row">
-
-      <div class="col-6">
-        <p>CNPJ: 10.198.203/0001-21</p>
-      </div>
-      <div class="offset-lg-3 offset-md-4 col-sm-2 col-md-2 col-lg-3">
-        <p>INEA: UNO15739/55.61.00</p>
-      </div>
-
-    </div>
-
-
-    <!-- <span class="text-muted">&copy; 2021 Company, Inc</span> -->
-
-  </footer>
-  <script src="./js/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
-
-</body>
-
+      <!-- <span class="text-muted">&copy; 2021 Company, Inc</span> -->
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
