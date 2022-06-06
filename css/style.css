@@ -10,7 +10,7 @@ body {
   font-family: BebasNeue;
 }
 
-.item-praga .servicos p{
+.servicos p{
   padding-top:10px;  
 }
 
@@ -269,23 +269,6 @@ body.fixed .header-fixed .header-limiter nav {
   
 }
 
-
-
-
-.item-manutencoes .servicos{
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-  height: auto;
-  /* width: 70%; */
-
-}
-
-
-
-
 .carousel-item .img-carosel1 {
   width: 90%;
   height: 100%;
@@ -510,7 +493,7 @@ img.praga-formiga {
     -webkit-transition: .3s ease-in;
     transition: .3s ease-in;
     opacity: .8;
-    background: linear-gradient(180deg,transparent 30%,#000);
+    background: linear-gradient(180deg,transparent 0%,#000);
 }
 
 @media (max-width: 768px) {
