@@ -565,7 +565,7 @@ img.praga-formiga {
   }
 
   .bottom-footer{
-    
+    display: block !important;
   }
 
 
