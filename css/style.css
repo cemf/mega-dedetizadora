@@ -83,7 +83,6 @@ body {
 
 .header-fixed .header-limiter h1 {
   float: left;
-  font: normal 28px Cookie, Arial, Helvetica, sans-serif;
   line-height: 40px;
   margin: 0;
   width: 20%;
@@ -564,9 +563,19 @@ img.praga-formiga {
   .cristo{
     margin-top: 50px;
   }
+
+  .bottom-footer{
+    
+  }
+
+
+
+
 }
 
-
+.color-text-white{
+  color: #fff;
+}
 footer {
   background-color: #2B3990;
   color: white;
