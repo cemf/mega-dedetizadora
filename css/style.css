@@ -24,6 +24,10 @@ body {
   
   }
 
+  .card-body h4{
+    font-weight: bold;
+  }
+
 .marketing{
   padding: 0 20px;
 }
@@ -553,6 +557,12 @@ img.praga-formiga {
   }
   .order-2-fachada{
     order: 2;
+  }
+}
+
+@media (max-width:767px){
+  .cristo{
+    margin-top: 50px;
   }
 }
 
