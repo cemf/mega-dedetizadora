@@ -110,16 +110,16 @@
           <div class="container">
             <div class="carousel-caption servicos">
               <div class="col-md-6">
-              <h4>
-                Instalações e manutenções elétricas, hidráulica,
-                <span>sistemas de gás e de ar central</span>
-              </h4>
-              <p>
-                <a class="btn btn-lg btn-primary" href="#instalacoes">
-                  Saiba mais
-                </a>
-              </p>
-            </div>
+                <h4>
+                  Instalações e manutenções elétricas, hidráulica,
+                  <span>sistemas de gás e de ar central</span>
+                </h4>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#instalacoes">
+                    Saiba mais
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
           <div class="coverBorder"></div>
@@ -362,7 +362,7 @@
       </div>
     </section>
     <section id="pintura-reforma">
-      <div class="container col-xxl-12">
+      <div class="container col-xxl-12" id="caixa-agua">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-lg-6 order-2-fachada">
             <h3 class="display-6 fw-bold lh-1 mb-3">
@@ -386,7 +386,7 @@
           </div>
         </div>
       </div>
-      <div class="container col-xxl-12">
+      <div class="container col-xxl-12" id="limpesa-fachadas">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-sm-12 col-lg-6">
             <img src="./img/Limpeza de prédios.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
@@ -408,7 +408,7 @@
         </div>
       </div>
       <div class="container col-xxl-12">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5" id="pintura-fachadas">
           <div class="col-lg-6 order-2-fachada">
             <h3 class="display-6 fw-bold lh-1 mb-3">Pintura de fachadas</h3>
             <p class="lead text-justify">
@@ -433,7 +433,7 @@
         </div>
       </div>
       <div class="container col-xxl-12">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5" id="obras-reformas">
           <div class="col-sm-12 col-lg-6">
             <img src="./img/reforma.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
               height="500" loading="lazy" />
@@ -472,8 +472,8 @@
               <div class="col-md-6 mr-auto position-relative mt-60">
                 <div class="d-grid gap-2 text-center orcamento d-sm-flex justify-content-sm-center center-aligh">
                   <a href="https://web.whatsapp.com/send?phone=552198281-8555" target="_blank">
-                    <img onmouseover="changeImg()" onmouseout="mouseOut()"
-                      class=" img-btn-orc" src="img/Botão normal.png" alt="">
+                    <img onmouseover="changeImg()" onmouseout="mouseOut()" class=" img-btn-orc"
+                      src="img/Botão normal.png" alt="">
                   </a>
                   <!-- <a
                     href="https://web.whatsapp.com/send?phone=552198281-8555"
@@ -523,53 +523,55 @@
 
     <span class="text-muted">&copy; 2021 Company, Inc</span> 
   </footer>-->
-  <footer class="py-5">
+  <footer class="pt-5">
     <div class="container">
-    <div class="row">
-      <div class="col-3">
-        <h5>Serviços</h5>
-        <ul class="nav flex-column ">
-          <li class="nav-item mb-2"><a href="#servicos" class="nav-link p-0 color-text-white">Imunização e controle de pragas urbanas</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 color-text-white ">Manutenções e instalações</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 color-text-white">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 color-text-white">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 color-text-white">About</a></li>
-        </ul>
-      </div>
-
-      <div class="col-6 float-end">
-        <div class="col-md-6 text-sm-center ml-auto contato">
-          <h3 class="thin-heading mb-4">Contato:</h3>
-          <p>
-            Telefones:
-            <br />
-            Tel 1: (21) 3274-5323
-            <br />
-            Tel2: (21) 3081-0473
-            <br />
-            <br />
-            email:insetrio@gmail.com
-          </p>
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">      
+          <li><a href="#servicos" class=" color-text-white">Imunização e controle de pragas
+              urbanas</a></li>
+            <li><a href="#caixa-agua" class="color-text-white">Limpeza de caixa d'agua</a></li>
+            <li><a href="#instalacoes" class="color-text-white ">Manutenções e instalações</a></li>
+            <li><a href="#limpesa-fachadas" class="color-text-white">Limpesa de fachadas</a></li>
+            <li><a href="#pintura-fachadas" class="color-text-white">Pinturas de predio</a></li>
+            <li><a href="#obras-reformas" class="color-text-white">Obras e reformas</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="col-md-6 offset-md-6  text-center ml-auto mt-5 mt-sm-0 ">
+            <h3 class="thin-heading mb-4">Contato:</h3>
+            <p>
+              Telefones:
+              <br />
+              Tel 1: (21) 3274-5323
+              <br />
+              Tel2: (21) 3081-0473
+              <br />
+              <br />
+              email:insetrio@gmail.com
+            </p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="bottom-footer d-flex justify-content-between pt-4 border-top">
      
-      <p>CNPJ: 10.198.203/0001-21</p>
-       
-          <p>INEA: UNO15739/55.61.00</p>
-      <p>© Estudio Z. All rights reserved.</p>
-      <a target="about_black()" style="color: #fff;"class="text-decoration-none" href="https://www.linkedin.com/in/carlos-henrique-fabricio-02b102113/">Feito por Carlos Henrique Fabricio</a>
-          
-      <!-- <ul class="list-unstyled d-flex">
+        <!-- <ul class="list-unstyled d-flex">
         <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
         <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
         <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
       </ul> -->
+      </div>
     </div>
-  </div>
+    <div class="bottom-footer d-flex justify-content-between pb-1 pt-3 p-5 border-top">
+      <p>CNPJ: 10.198.203/0001-21</p>
+      <p>INEA: UNO15739/55.61.00</p>
+      <p>© Estudio Z. All rights reserved.</p>
+      <a target="about_black()" style="color: #fff;" class="text-decoration-none"
+        href="https://www.linkedin.com/in/carlos-henrique-fabricio-02b102113/">Feito por Carlos Henrique Fabricio</a>
+
   </footer>
+
   <script src="./js/bootstrap.bundle.min.js"></script>
   <script src="js/script.js"></script>
 </body>
